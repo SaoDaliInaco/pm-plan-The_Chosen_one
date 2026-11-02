@@ -39,3 +39,4 @@
 | Date       | Version | Change                                                                                                                |
 | ---------- | ------- | --------------------------------------------------------------------------------------------------------------------- |
 | 2026-10-13 | 0.1     | Lab-02: constraint analysis, MoSCoW, scoring, CR analysis, log, memo added; scope baseline pending sponsor decision on CR-03 |
+| 2026-10-24 | 1.0     | Added Challenge: negotiation script and decision record DR-01 for sponsor open-day demo request
