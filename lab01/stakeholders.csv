@@ -1,9 +1,0 @@
-id,name_or_group,role,category,interest,influence,interest_level,expectation
-S01,Head of the IT department,Sponsor,sponsor,A functional reusable internal quiz tool that reduces marking burden and stays within 200 USD,H,H,Successful MVP demo in week 7 and a smooth 50-student pilot in week 14.
-S02,Supervising Lecturer,Project Manager,pm,Successful deliverable execution on schedule within the 490 total hours allocated,H,H,Clear weekly progress updates and timely escalation of technical roadblocks.
-S03,Student Team (4),Developers and Testers,team,Gaining practical software engineering experience and achieving high course evaluation marks,M,H,Clear requirements and consistent weekly feedback on code commits.
-S04,Pilot Students (50),End Users,user,An engaging and responsive quiz interface with accurate live score feedback,L,M,Zero session crashes and latency under 500 ms during live sessions.
-S05,Department Lecturers,Instructors / Users,user,Fast quiz authoring and automated grade export capability to save weekly marking time,M,H,An intuitive quiz management interface and exportable CSV reports by week 14.
-S06,IT Operations Admin,Infrastructure Admin,operations,System stability without performance degradation or security issues on gicitc.com,M,M,A complete production Docker Compose setup and deployment runbook 2 weeks before go-live.
-S07,Campus Network Admin,Network Admin,governance,Ensuring network traffic compliance and smooth WebSocket traffic handling,H,L,Advance notification of network requirements and SockJS fallback implementation.
-S08,Data Protection Officer,Governance Officer,governance,Compliance with student personal data privacy and safe secure grade storage,H,L,A one-page data storage overview confirming secure campus-hosted student data handling before pilot.
