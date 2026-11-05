@@ -1,0 +1,8 @@
+id,item,fr_ids,priority,points,owner,acceptance_criteria
+B-01,Project skeleton with CI and database migration tool, -,Must,3,A,"Given a clean repository clone, when mvnw verify runs, then build and database migrations pass successfully"
+B-02,User registration with email, name, and role selection,FR-A1,Must,3,B,"Given valid registration details, when user submits sign-up form, then account is created and password securely hashed"
+B-03,User login and JWT token generation with expiration,FR-A2,Must,5,C,"Given registered credentials, when user logs in, then a valid JWT token with 12-hour expiry is returned"
+B-04,Role-based access control for instructor and student pages,FR-A3,Must,3,D,"Given an authenticated user token, when accessing restricted routes, then unauthorized roles are blocked with 403 status"
+B-05,Create quiz with title, description, and visibility settings,FR-Q1,Must,5,A,"Given an authenticated instructor, when submitting quiz details, then a new quiz entity is saved in the database"
+B-06,Add, edit, and delete questions within a quiz,FR-Q2,Must,8,B,"Given an existing quiz ID, when adding multiple-choice questions, then questions are linked and modifiable"
+B-07,Single and multi-answer question option handling,FR-Q4,Must,3,C,"Given question setup, when configuring options, then correct choices are properly designated for scoring"
