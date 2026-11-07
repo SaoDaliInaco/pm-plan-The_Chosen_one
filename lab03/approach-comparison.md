@@ -1,0 +1,20 @@
+# Approach comparison · Realtime Quiz
+
+| Approach   | How requirements are handled                                                                                                                   | How the sponsor controls the project (governance)                                                                                               | Week in which the sponsor first plays a working quiz | Two main risks                                                                                                                                                      | Fit with the Task 1 profile                                                                                                 |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Waterfall  | Requirements are defined and approved before development. Changes require formal change requests.                                              | Sponsor approves the project plan, scope, budget and major deliverables at formal milestones.                                                   | Week 9                                               | 1. Technical problems may be discovered too late. 2. Limited feedback may cause the final quiz to miss user expectations.                                           | Medium: good for stable requirements and formal governance, but weak for technical uncertainty and early feedback.          |
+| Pure Scrum | Requirements are maintained in a product backlog and reordered after each sprint based on feedback.                                            | Sponsor attends sprint reviews every two weeks and provides feedback, but there is no formal phase gate for approving the overall project plan. | Week 5                                               | 1. The inexperienced team may struggle with estimation and sprint planning. 2. Fixed sponsor deadlines and budget may be difficult to control without formal gates. | Medium: strong for uncertainty and early feedback, but weaker for fixed governance and the team's limited Agile experience. |
+| Hybrid     | High-level requirements and scope are baselined during planning, while detailed features are refined and delivered through four Agile sprints. | Sponsor approves the plan at G1, reviews sprint results every two weeks and makes formal decisions at four phase gates.                         | Week 5                                               | 1. Extra coordination between predictive planning and Agile sprints may consume time. 2. Formal approvals may delay sprint decisions if the sponsor is unavailable. | High: balances technical experimentation, early feedback, fixed deadlines and formal governance.                            |
+
+## Weighted score (from approach-scoring.csv)
+
+Waterfall: 3.00 · Scrum: 3.10 · Hybrid: 4.30
+
+## Sensitivity
+
+- Test 1: Increase Technical uncertainty from 25 to 35 and reduce Requirements stability from 25 to 15. The scores become Waterfall 2.90, Scrum 3.30 and Hybrid 4.40; the ranking does not change.
+- Test 2: Increase Need for early delivery and feedback from 15 to 25 and reduce Team experience with agile from 15 to 5. The scores become Waterfall 2.70, Scrum 3.30 and Hybrid 4.40; the ranking does not change.
+
+## Recommendation
+
+Choose Hybrid with a weighted score of 4.30/5. Pure Scrum is the runner-up with 3.10/5. Choose Pure Scrum instead only if the sponsor removes the requirement for formal plan approval at G1 and accepts sprint-based governance while keeping the Week 14 pilot deadline.
