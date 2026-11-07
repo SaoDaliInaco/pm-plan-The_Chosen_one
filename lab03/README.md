@@ -16,11 +16,15 @@ Sponsor oversight is maintained through rigorous stage gate reviews, strict mana
 | lab03/scrum-setup.md | Agile Scrum framework setup including roles, calendar, DoR, and DoD |
 | lab03/sprint-1-backlog.csv | Sprint 1 backlog items with Fibonacci estimates and acceptance criteria |
 | lab03/governance.md | Stage gate checklists, stage tolerances, reporting rules, and closure criteria |
+| lab03/challenge/sprint-1-planning.md | Sprint 1 planning poker record, Fibonacci debate, committed points, and burndown analysis |
+| lab03/challenge/burndown.mmd | Mermaid xychart-beta source charting Sprint 1 ideal and actual story point burndown |
+| lab03/challenge/retrospective-template.md | Sprint 1 retrospective record and standard template with burndown-derived action items |
+| lab03/challenge/prince2-comparison.md | Comparative mapping table and governance analysis against PRINCE2 7th Edition |
 
 ## Inputs reused
 | Input | Version / tag |
 |---|---|
-| lab01/project-charter.md | v1.0 / 2026-09-29[cite: 5] |
+| lab01/project-charter.md | v1.0 / 2026-09-29 |
 | lab01/stakeholders.md | v1.0 / 2026-09-29 |
 | lab02/moscow.md | v1.0 / 2026-10-10 |
 | lab02/constraints.md | v1.0 / 2026-10-10 |
@@ -29,3 +33,4 @@ Sponsor oversight is maintained through rigorous stage gate reviews, strict mana
 | Date | Version | Change |
 |---|---|---|
 | 2026-10-24 | 1.0 | Lab-03 · life cycle selection, Scrum setup, and governance added |
+| 2026-11-07 | 1.1 | Challenge · Sprint 1 planning poker, burndown chart, retrospective, and PRINCE2 comparison added |
